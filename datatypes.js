@@ -1,4 +1,4 @@
-"use strict" // treat al the JS code as newer version of Javascript
+"use strict" // treat all the JS code as newer version of Javascript
 
 let age = 18 // number
 let name = "priyansh" // string

@@ -10,3 +10,4 @@ let state; // it is treated as undefined as javascript
 console.log(accountId);
 console.table([accountId, emailId, state])
 
+console.table([accountId, emailId, state])

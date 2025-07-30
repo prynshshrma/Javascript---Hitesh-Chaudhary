@@ -1,4 +1,5 @@
 let score = undefined
+console.log(typeof score);
 // let score = "90a" the value of score is NaN (not a number) because the score doesn't contain a full number. It is the combination of number(90) and character(a)
 
 // but the type of this let score = "90a" shows a number 
@@ -9,17 +10,15 @@ let score = undefined
 // undefined => NaN
 
 
-console.log(typeof score);
-
 
 // converting the string value to number using Number()
-let numberconv = Number(score)
+let score2 = "fifty"
+let numberconv = Number(score2)
 console.log(typeof numberconv);
 console.log(numberconv);
 
-// converting number to boolean value
- 
 
+// converting string to boolean value
 let isLoggedIn = ""
 let booleanconv = Boolean(isLoggedIn)
 console.log(booleanconv);
@@ -32,10 +31,17 @@ console.log(typeof booleanconv);
 
 // number to string
 
-let one = 23
+let one = 34
 let two = String(one)
 console.log(two);
 console.log(typeof two);
+
+// boolean to number
+
+let age = true;
+let ageSecond = Number(age)
+console.log(ageSecond);
+
 
 
 
