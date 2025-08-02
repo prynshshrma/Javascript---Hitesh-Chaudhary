@@ -40,7 +40,7 @@ console.log(anchor.getMonth()+1);  // for the readability of the user
 console.log(`The date is ${anchor.toLocaleDateString()} and the time is ${anchor.toTimeString()}`);
 
 
-
+ 
 anchor.toLocaleString('default', {
     weekday: "long"
 })
