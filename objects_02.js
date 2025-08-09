@@ -82,6 +82,25 @@ console.log(regularUser.hasOwnProperty("isLoggedIn")); // checking whether the o
 
 
 
+// object destructuring 
+
+const course = {
+    
+    Cname: "JS",
+    price: "999",
+    mentor: "Hitesh"
+}
+
+
+const {Cname : my} = course
+
+console.log(my);
+
+
+
+
+
+
 
 
 
