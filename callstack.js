@@ -22,3 +22,5 @@ function three(){
 one()
 two()
 three()
+
+// call stack follows the principle LIFO 
