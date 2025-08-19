@@ -4,7 +4,7 @@ const user = {
 
     loginMessage : function(){
 
-        console.log(` ${this.name}, welcome to website!`)  // this refers to the current context. We can access the values of different properties using this keyword within the scope
+        console.log(` ${this.name}, welcome to website!`)  // this refers to the current context. We can access the values of different properties using this keyword
         console.log(this);
     
     }
