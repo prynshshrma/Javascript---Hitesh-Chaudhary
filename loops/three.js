@@ -26,7 +26,7 @@ map.set('USAA', "UNITED STATES OF AMERICAAA")
 
 console.log(map);
 
-for (const [i, j] of map) {   // destructuring the array
+for (const [i, j] of map) {   
     console.log(i, ' ', j);
     
 }
